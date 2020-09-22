@@ -18,9 +18,9 @@ const connect = function() {
     
   });
 
-    conn.on('data',(data) => {
-      console.log(`${data}`);
-    });
+  conn.on('data',(data) => {
+    console.log(`${data}`);
+  });
   
  
 
@@ -30,17 +30,17 @@ const connect = function() {
 
 module.exports = { connect };
 // setTimeout(() => {
-    //   conn.write("Move: up");
-    // },50);
-    // setTimeout(() => {
-    //   conn.write("Move: left");
-    // },300);
-    // setTimeout(() => {
-    //   conn.write("Move: down");
-    // },500);  setTimeout(() => {
-    //   conn.write("Move: right");
-    // },700);
-    // setInterval(() => {
-    //   conn.write("Move: up");
-    // },50);
+// conn.write("Move: up");
+// },50);
+// setTimeout(() => {
+//   conn.write("Move: left");
+// },300);
+// setTimeout(() => {
+//   conn.write("Move: down");
+// },500);  setTimeout(() => {
+//   conn.write("Move: right");
+// },700);
+// setInterval(() => {
+//   conn.write("Move: up");
+// },50);
  
